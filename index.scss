@@ -1,0 +1,185 @@
+/* Source */
+@use "./src/source/theme-source.css";
+@use "./src/source/join-create-server.css";
+@use "./src/source/watermark.css";
+
+/* Addons */
+@use "./src/addons/revamped-user-area.css";
+@use "./src/addons/better-channel-indicators.css";
+@use "./src/addons/better-quotes.css";
+@use "./src/addons/text-status-indicators.css";
+@use "./src/addons/nicer-blocked-messages.css";
+@use "./src/addons/highlight-colors.css";
+
+
+.theme-dark, 
+.theme-light, 
+:root {
+    --background-primary: #36263A !important;
+    --background-secondary: #281D30 !important;
+    --background-secondary-alt: #211828 !important;
+    --background-tertiary: #1A141F !important;
+    --background-accent: #413f66 !important;
+    --background-floating: var(--background-tertiary) !important;
+    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(255,255,255,0.04) !important;	
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-secondary) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #9f9f9f !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #fbfbfb !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+}
+
+
+/* Separation + Rounding + Other Changes */
+.chat-3bRxxu,
+.container-1D34oG,
+.container-3Mxszk,
+.applicationStore-1pNvnv,
+.pageWrapper-1PgVDX,
+.container-1D34oG,
+.pageWrapper-1PgVDX { /* Separation From Sidebars */
+    position: relative;
+    padding-right: 7px;
+    left: 7px;
+}
+.sidebar-2K8pFh,
+.chat-3bRxxu,
+.container-1D34oG,
+.pageWrapper-1PgVDX { /* Rounding + Top/Bottom Separation */
+    border-radius: 15px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.chat-3bRxxu,
+.container-1D34oG,
+.pageWrapper-1PgVDX { /* Right Separation */
+    margin-right: 15px;
+}
+
+.guilds-1SWlCJ { /* Guilds List Positioning Fix */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.chat-3bRxxu,
+.container-1D34oG  /* Members List + Activity Fix */ {
+    padding-right: 0;
+}
+
+
+/* Topbar + Chat */
+.titleBar-AC4pGV { /* Topbar Change */
+    background: var(--background-secondary-alt);
+    margin-top: 0px;
+}
+.winButton-iRh8-Z {
+    margin-top: 2px;
+}
+
+.title-3qD0b-.container-1r6BKw.themed-ANHk51 { /* Nicer Topbar Title */
+    background-color: var(--background-secondary);
+
+    & > div::after {
+        display: none;
+    }
+}
+.toolbar-1t6TWx { /* Tooltip Background */
+    background-color: var(--background-secondary-alt);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+/* Tooltips */
+.tooltip-2QfLtc { /* Main */
+    background-color: #0F0C12 !important;
+    text-shadow: #000 0 0 5px;
+}
+.tooltipPointer-3ZfirK {
+    border-top-color: #0F0C12 !important;
+}
+
+.tooltipContent-bqVLWK > .colorMuted-HdFt4q { /* Muted */
+    padding-top: 2px;
+    color: #F04747;
+    font-weight: bold;
+}
+.tooltipContent-bqVLWK > .colorMuted-HdFt4q::before {
+    content: " ";
+    background: url(https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/BetterTooltips/Assets/MutedIcon.svg) center/100% no-repeat;
+    padding-left: 21px;
+    margin-left: 3px;
+    margin-right: 7px;
+    filter: drop-shadow(0 0 1.5px #000);
+}
+ 
+.tooltipContent-bqVLWK > .row-2OVM4t > svg { /* In Voice Chat */
+    filter: drop-shadow(0 0 1.5px #000);
+}
+.tooltipContent-bqVLWK > .row-2OVM4t > svg > path {
+    fill: #43B581;
+}
+
+
+/* Nicer Roles */
+.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6) {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    border: solid;
+    border-width: 0 0 0 4px;
+    border-radius: 1px 3px 3px 1px;
+}
+.roleCircle-3xAZ1j.flex-1O1GKY {
+    height: 0;
+    width: 0;
+
+    &::before {
+        content: " ";
+        position: absolute;
+        z-index: -1;
+        background: inherit;
+        opacity: 0.2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+/* Misc Changes and Fixes */
+.panels-j1Uci_ { /* Removal Of Username and Activity */
+    & > div:last-child {
+        height: 0;
+        width: 0;
+    }
+
+    & > .activityPanel-28dQGo {
+        margin-bottom: -2px;
+    }
+}
+
+.botTag-3W9SuW,
+.botTagCozy-1fFsZk:not(.tag) { /* Bot Tags */
+    background-color: var(--background-tertiary);
+}
+
+[aria-label="WOAH THERE. WAY TOO SPICY"] > div > form > .footer-2gL1pp { /* u disgusting spammer */
+    margin-top: 10px;
+}

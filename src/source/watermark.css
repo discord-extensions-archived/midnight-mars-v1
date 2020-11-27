@@ -1,0 +1,33 @@
+@import url("https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css"); /* Discord Font */
+
+@keyframes Gradient1 {
+    0% {
+       background-position:0% 50%
+    }
+    50% {
+       background-position:100% 50%
+    }
+    100% {
+       background-position:0% 50%
+    }
+}
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discord";
+    content: "🪐 Midnight Mars";
+    top: 3px;
+    width: 135px;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #C779D0, #FEAC5E);
+    animation: Gradient1 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 400% 400%;
+}
