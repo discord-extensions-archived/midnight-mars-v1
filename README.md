@@ -17,7 +17,11 @@ git pull
 ```
 
 # Customization
-There are plenty of addons that come with the theme, if there are some that you don't like, you can easily remove them by opening the index.scss file and removing the ones that you dislike. If you'd like to submit an addon for everyone to use, make a pull request in the addons folder adding it!
+There are pleny of addons that come with this theme, as well as customization for it. If there's an addon that you don't like, you can simply go into the index.css file, and under where it says "Addons", find the addon that you dislike and either comment the line out or select and delete it!
+
+If you'd like to submit an addon that's compatiable and you want everyone to use, make a pull request adding it to the addons folder!
+
+### NOTE: Please do not submit CSS that isn't yours!
 
 # Credits
 Thanks to Ben#0855 for the theme name and theme description ideas <3
