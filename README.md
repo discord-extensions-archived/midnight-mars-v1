@@ -1,5 +1,6 @@
 # 🪐Midnight Mars (dev)
 A simple, deep red theme inspired by midnight on Mars.
+
 ![Preview](./Previews/FullPreview.png)
 
 # Installation & Updating
