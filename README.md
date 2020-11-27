@@ -1,4 +1,4 @@
-# 🪐 Midnight Mars (dev)
+# 🪐Midnight Mars (dev)
 A simple, deep red theme inspired by midnight on Mars.
 
 # Installation & Updating
