@@ -1,5 +1,5 @@
 # 🪐Midnight Mars (dev)
-A simple, deep red theme inspired by midnight on Mars.
+A simple, deep purple theme inspired by midnight on Mars.
 
 ![Preview](./Previews/FullPreview.png)
 
