@@ -130,3 +130,12 @@
 .panels-j1Uci_ > .activityPanel-28dQGo {
     margin-bottom: -2px;
 }
+
+
+/* Title Bar z-index Fix */
+.titleBar-AC4pGV {
+    z-index: 2;
+}
+.tooltip-2QfLtc.tooltipTop-XDDSxx {
+    z-index: 3;
+}
