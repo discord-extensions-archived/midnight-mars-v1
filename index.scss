@@ -164,17 +164,6 @@
 
 
 /* Misc Changes and Fixes */
-.panels-j1Uci_ { /* Removal Of Username and Activity */
-    & > div:last-child {
-        height: 0;
-        width: 0;
-    }
-
-    & > .activityPanel-28dQGo {
-        margin-bottom: -2px;
-    }
-}
-
 .botTag-3W9SuW,
 .botTagCozy-1fFsZk:not(.tag) { /* Bot Tags */
     background-color: var(--background-tertiary);
