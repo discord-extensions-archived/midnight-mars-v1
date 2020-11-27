@@ -1,5 +1,6 @@
 # 🪐Midnight Mars (dev)
 A simple, deep red theme inspired by midnight on Mars.
+![Preview](./Previews/FullPreview.png)
 
 # Installation & Updating
 Let's get to the chase, you want this them, I know it, you know it. For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
@@ -11,9 +12,6 @@ Since Powercord's updater is currently broken, you have to update the theme manu
 ```
 git pull
 ```
-
-# Previews
-Soon:tm:
 
 # Customization
 There are plenty of addons that come with the theme, if there are some that you don't like, you can easily remove them by opening the index.scss file and removing the ones that you dislike. 
