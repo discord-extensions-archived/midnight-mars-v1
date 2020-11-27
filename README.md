@@ -3,6 +3,8 @@ A simple, deep purple theme inspired by midnight on Mars.
 
 ![Preview](./Previews/FullPreview.png)
 
+### NOTE: This theme is still kinda in-dev, I plan on changing/adding more stuff, also some things may be whacky so please make an issue request if you notice anything <3
+
 # Installation & Updating
 Let's get to the chase, you want this them, I know it, you know it. For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
