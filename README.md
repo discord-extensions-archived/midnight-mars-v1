@@ -2,12 +2,12 @@
 A simple, deep red theme inspired by midnight on Mars.
 
 # Installation & Updating
-Let's get to the chase, you want this them, I know it, you know it. For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash**, and enter the following:
+Let's get to the chase, you want this them, I know it, you know it. For installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
 git clone https://github.com/LuckFire/Midnight-Mars
 ```
 
-Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash**, and enter the following:
+Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> Midnight-Mars -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
 git pull
 ```
