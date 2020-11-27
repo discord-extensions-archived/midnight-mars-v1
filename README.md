@@ -20,4 +20,4 @@ There are plenty of addons that come with the theme, if there are some that you 
 # Credits
 Thanks to Ben#0855 for the theme name and theme description ideas <3
 
-Thanks to Nyria#0001's Comfy Theme for the nice looking role pills :>
+Thanks to Nyria#0001's Comfy Theme for the nice looking role pills idea :>
