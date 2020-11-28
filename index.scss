@@ -164,6 +164,17 @@
 }
 
 
+/* Chatbar */
+.scrollableContainer-2NUZem.webkit-HjD9Er { /* Rounded Chatbar */
+    border-radius: 25px;
+}
+
+.channelTextArea-2VhZ6z > .container-2fRDfG {  /* Replying */
+    border-radius: 25px;
+    margin-bottom: 2px;
+}
+
+
 /* Misc Changes and Fixes */
 .botTag-3W9SuW,
 .botTagCozy-1fFsZk:not(.tag) { /* Bot Tags */
@@ -172,8 +183,4 @@
 
 [aria-label="WOAH THERE. WAY TOO SPICY"] > div > form > .footer-2gL1pp { /* u disgusting spammer */
     margin-top: 10px;
-}
-
-.channelTextArea-rNsIhG > div { /* Rounded Chatbar */
-   border-radius: 25px;
 }
