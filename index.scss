@@ -138,17 +138,17 @@
 
 
 /* Nicer Roles */
-.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6) {
+.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
     z-index: 1;
     position: relative;
     overflow: hidden;
     border: solid;
     border-width: 0 0 0 4px;
-    border-radius: 1px 3px 3px 1px;
+    border-radius: 2px 2px 2px 2px;
 }
 .roleCircle-3xAZ1j.flex-1O1GKY {
-    height: 0;
-    width: 0;
+    height: 4px;
+    width: 4px;
 
     &::before {
         content: " ";
