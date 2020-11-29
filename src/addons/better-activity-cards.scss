@@ -1,5 +1,6 @@
 .activity-11LB_k,
 .activityProfile-2bJRaP { /* Activity Cards */
+    --box-shadow: 0 3px 0;
     border-radius: 4px; 
     padding: 9px;
     margin: 0 5px 9px 5px; 
@@ -10,8 +11,8 @@
         background: var(--background-tertiary);
 
         & > .activity-11LB_k {
-            background: #7289DA; 
-            box-shadow: 0 3px 0 #7289daa8;
+            background: rgb(168, 113, 182); 
+            box-shadow: var(--box-shadow) rgb(94, 62, 102);
         }
     }
 
@@ -20,7 +21,7 @@
 
         & > .activity-11LB_k {
             background: #1DB954; 
-            box-shadow: 0 3px 0 #1db954ad;
+            box-shadow: var(--box-shadow) #1db954ad;
         }
     }
 
@@ -29,7 +30,7 @@
 
         & > .activity-11LB_k {
             background: #9059F6; 
-            box-shadow: 0 3px 0 #694EA8;
+            box-shadow: var(--box-shadow) #694EA8;
         }
     }
 }
@@ -38,8 +39,8 @@
     background: var(--background-tertiary);
 
     & > .headerFill-adLl4x > .activityProfile-2bJRaP {
-        background: #7289DA; 
-        box-shadow: 0 3px 0 #7289daa8;
+        background: rgb(168, 113, 182); 
+        box-shadow: var(--box-shadow) rgb(94, 62, 102);
     }
 }
 .topSectionSpotify-1lI0-P { /* Spotify Header */ 
@@ -47,7 +48,7 @@
 
     & > .headerFill-adLl4x > .activityProfile-2bJRaP { 
         background: #1DB954; 
-        box-shadow: 0 3px 0 #1db954ad;
+        box-shadow: var(--box-shadow) #1db954ad;
     }
 }
 .topSectionStreaming-1Tpf5X { /* Streaming Header */
@@ -55,6 +56,6 @@
 
     & > .headerFill-adLl4x > .activityProfile-2bJRaP {
         background: #9059F6; 
-        box-shadow: 0 3px 0 #694EA8;
+        box-shadow: var(--box-shadow) #694EA8;
     }
 }
