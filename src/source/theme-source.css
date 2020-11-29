@@ -427,3 +427,10 @@
 .previewImage-RxVzkZ {
    background-color: var(--background-secondary-alt);
 }
+
+.layer-v9HyYc > .animatorTop-2Y7x2r > div > .white-3xi-nx { /* RTC Connection */
+    background-color: var(--background-secondary-alt);
+}
+.layer-v9HyYc > .animatorTop-2Y7x2r > div > section {
+    background-color: var(--background-primary);
+}
