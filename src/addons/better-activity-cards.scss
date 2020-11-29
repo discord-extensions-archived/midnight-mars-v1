@@ -59,3 +59,15 @@
         box-shadow: var(--box-shadow) #694EA8;
     }
 }
+
+
+/* Button Fixes */ 
+.headerInfo-30uryT + .actionButton-3W1xZa {
+    background-color: #43B581;
+    color: #fff;
+
+    &:hover {
+        background-color: #3CA374;
+        color: #fff;
+    }
+}
