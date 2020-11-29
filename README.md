@@ -24,6 +24,6 @@ If you'd like to submit an addon that's compatiable and you want everyone to use
 ### NOTE: Please do not submit CSS that isn't yours!
 
 # Credits
-Thanks to Ben#0855 for the theme name and theme description ideas <3
+Thanks to Nyria#0001's Comfy Theme for giving me the nice role pills + nice activity cards idea (A lot of inspiration came from that theme, I recommend that you check it out, you might like it more! https://github.com/NYRI4/Comfy-theme) <3
 
-Thanks to Nyria#0001's Comfy Theme for giving me the nice role pills + nice activity cards idea <3
+Thanks to Ben#0855 for the theme name and theme description ideas <3
