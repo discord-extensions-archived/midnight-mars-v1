@@ -1,0 +1,18 @@
+/* Modals */
+.userPopout-3XzG_A,
+.inner-1ilYF7 > .flex-1xMQg5.root-SR8cQa { /* User Modals */
+    border-radius: 15px !important;
+}
+
+.uploadModal-2ifh8j { /* Upload Modal */
+    border-radius: 15px;
+}
+.uploadModal-2ifh8j > .footer-3mqk7D {
+    border-radius: 0 0 15px 15px;
+}
+
+
+/* Misc */
+.button-38aScr.lookFilled-1Gx00P { /* Buttons */
+    border-radius: 25px;
+}
