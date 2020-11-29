@@ -13,6 +13,7 @@
 
 
 /* Misc */
-.button-38aScr.lookFilled-1Gx00P { /* Buttons */
+.button-38aScr.lookFilled-1Gx00P,
+.button-38aScr.lookInverted-2D7oAl { /* Buttons */
     border-radius: 25px;
 }
