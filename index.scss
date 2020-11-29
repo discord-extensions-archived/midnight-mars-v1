@@ -10,6 +10,7 @@
 @use "./src/addons/text-status-indicators.css";
 @use "./src/addons/nicer-blocked-messages.css";
 @use "./src/addons/highlight-colors.scss";
+@use "./src/addons/nicer-tooltips.scss";
 
 
 .theme-dark, 
@@ -103,37 +104,6 @@
     background-color: var(--background-secondary-alt);
     border-radius: 10px;
     padding: 6px;
-}
-
-
-/* Tooltips */
-.tooltip-2QfLtc { /* Main */
-    background-color: #0F0C12 !important;
-    text-shadow: #000 0 0 5px;
-}
-.tooltipPointer-3ZfirK {
-    border-top-color: #0F0C12 !important;
-}
-
-.tooltipContent-bqVLWK > .colorMuted-HdFt4q { /* Muted */
-    padding-top: 2px;
-    color: #F04747;
-    font-weight: bold;
-}
-.tooltipContent-bqVLWK > .colorMuted-HdFt4q::before {
-    content: " ";
-    background: url(https://raw.githubusercontent.com/LuckFire/CSS-Snippets/master/BetterTooltips/Assets/MutedIcon.svg) center/100% no-repeat;
-    padding-left: 21px;
-    margin-left: 3px;
-    margin-right: 7px;
-    filter: drop-shadow(0 0 1.5px #000);
-}
- 
-.tooltipContent-bqVLWK > .row-2OVM4t > svg { /* In Voice Chat */
-    filter: drop-shadow(0 0 1.5px #000);
-}
-.tooltipContent-bqVLWK > .row-2OVM4t > svg > path {
-    fill: #43B581;
 }
 
 
