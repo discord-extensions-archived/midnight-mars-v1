@@ -1,0 +1,60 @@
+.activity-11LB_k,
+.activityProfile-2bJRaP { /* Activity Cards */
+    border-radius: 4px; 
+    padding: 9px;
+    margin: 0 8px 12px 8px; 
+}
+
+.userPopout-3XzG_A { /* Poput Headers */
+    & > .headerPlaying-j0WQBV {
+        background: var(--background-tertiary);
+
+        & > .activity-11LB_k {
+            background: #7289DA; 
+            box-shadow: 0 3px 0 #46599c;
+        }
+    }
+
+    & > .headerSpotify-zpWxgT {
+        background: var(--background-tertiary);
+
+        & > .activity-11LB_k {
+            background: #1DB954; 
+            box-shadow: 0 3px 0 #148a3d;
+        }
+    }
+
+    & > .headerStreaming-2FjmGz {
+        background: var(--background-tertiary);
+
+        & > .activity-11LB_k {
+            background: #9059F6; 
+            box-shadow: 0 3px 0 #694EA8;
+        }
+    }
+}
+
+.topSectionPlaying-1J5E4n { /* Playing Header */
+    background: var(--background-tertiary);
+
+    & > .headerFill-adLl4x > .activityProfile-2bJRaP {
+        background: #7289DA; 
+        box-shadow: 0 3px 0 #46599c;
+    }
+}
+.topSectionSpotify-1lI0-P { /* Spotify Header */ 
+    background: var(--background-tertiary);
+
+    & > .headerFill-adLl4x > .activityProfile-2bJRaP { 
+        background: #1DB954; 
+        box-shadow: 0 3px 0 #148a3d;
+    }
+}
+.topSectionStreaming-1Tpf5X { /* Streaming Header */
+    background: var(--background-tertiary);
+
+    & > .headerFill-adLl4x > .activityProfile-2bJRaP {
+        background: #9059F6; 
+        box-shadow: 0 3px 0 #694EA8;
+    }
+}
