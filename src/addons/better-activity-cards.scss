@@ -103,3 +103,13 @@
     &.profileBadgeVerifiedDeveloper-195KfD { background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg); }
     &[class*="powercord-badge"] > svg { color: #7289DA; } /* yes im lazy */
 }
+
+
+/* White Text Fixes */ 
+.activity-1ythUs {
+    & > .activityHeader-1PExlk, .customStatusText-39gdCI { 
+        color: var(--header-secondary); 
+    }
+}
+.customStatus-1bh2V9 > .customStatusText-3YJeRZ { color: var(--header-secondary); }
+.nameTag-m8r81H:not(.nameTag-2IFDfL) { color: var(--header-secondary); }
