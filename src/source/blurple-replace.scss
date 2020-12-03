@@ -40,7 +40,7 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 .radioIconForeground-XwlXQN { fill: $blurple-replace; }
 
 /* Dropdown Modals */
-.item-1tOPte:not(.colorDanger-2qLCe1) {
+.item-1tOPte:not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
     &.focused-3afm-j, &:active {
         background: $blurple-replace;
     }
@@ -48,6 +48,14 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 
 /* SLiderbars */ 
 .slider-1PF9SW > .bar-2Qqk5Z > .barFill-23-gu- { background-color: $blurple-replace; }
+
+/* Screenshare */
+#app-mount .sourceThumbnail-27dolk { 
+    &.selected-1nOkyc, &:hover { box-shadow: inset 0 0 0 2px $blurple-replace; }
+}
+#app-mount .selectorButton-EEUWed {
+    &.selectorButtonSelected-t5V9On, &:hover { background-color: $blurple-replace; }
+}
 
 /* User Settings */
 .notificationSettings-1NQKPR > div > .wrapper-3jrx9n { /* -> Overlay -> Overlay Notifications */ 
