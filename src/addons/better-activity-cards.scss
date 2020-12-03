@@ -11,8 +11,8 @@
         background: var(--background-tertiary);
 
         & > .activity-11LB_k {
-            background: #7289DA; 
-            box-shadow: var(--box-shadow) #4E5D94;
+            background: #A871B6; 
+            box-shadow: var(--box-shadow) #53385a;
         }
     }
 
@@ -39,8 +39,8 @@
     background: var(--background-tertiary);
 
     & > .headerFill-adLl4x > .activityProfile-2bJRaP {
-        background: #7289DA; 
-        box-shadow: var(--box-shadow) #4E5D94;
+        background: #A871B6; 
+        box-shadow: var(--box-shadow) #53385a;
     }
 }
 .topSectionSpotify-1lI0-P { /* Spotify Header */ 
@@ -102,6 +102,22 @@
     &.profileBadgePartner-j6Lwhr { background-image: url(/assets/6203964d9d25c394a573fd4f6be36d97.svg); }
     &.profileBadgeVerifiedDeveloper-195KfD { background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg); }
     &[class*="powercord-badge"] > svg { color: #7289DA; } /* yes im lazy */
+}
+
+
+/* White Status Fixes */ 
+.wrapper-3t9DeA > .svg-2V3M55 {
+    & > [mask*="status-online"] {
+        fill: #43B480;
+    }
+
+    & > [mask*="status-idle"] {
+        fill: #F8A51A;
+    }
+
+    & > [mask*="status-dnd"] {
+        fill: #F04747;
+    }
 }
 
 
