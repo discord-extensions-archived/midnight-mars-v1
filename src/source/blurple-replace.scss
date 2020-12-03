@@ -2,7 +2,7 @@ $blurple-replace: rgb(168, 113, 182);
 $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 
 /* Buttons */
-.colorBrand-3pXr91 { /* Color Brand */
+.colorBrand-3pXr91:not(.buttonColor-7qQbGO) { /* Color Brand */
     &.lookFilled-1Gx00P {
         background-color: $blurple-replace !important;
     }
