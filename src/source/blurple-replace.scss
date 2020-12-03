@@ -1,0 +1,64 @@
+$blurple-replace: rgb(168, 113, 182);
+$blurple-replace-ghost: rgba(168, 113, 182, 0.15);
+
+/* Buttons */
+.colorBrand-3pXr91 { /* Color Brand */
+    &.lookFilled-1Gx00P {
+        background-color: $blurple-replace !important;
+    }
+
+    &.lookGhost-2Fn_0- {
+        color: $blurple-replace;
+        background-color: $blurple-replace-ghost;
+    }
+
+    &.lookLink-9FtZy- {
+        color: $blurple-replace;
+    }
+
+    &.lookOutlined-3sRXeN {
+        color: $blurple-replace;
+        border-color: $blurple-replace;
+    }
+}
+
+/* Checkboxes */ 
+.checkbox-1ix_J3.checked-3_4uQ9 { 
+    &[style*="background-color: rgb(114, 137, 218);"] { 
+        background-color: $blurple-replace !important; 
+        border-color: $blurple-replace !important; 
+    }
+
+    &[style*="border-color: rgb(114, 137, 218);"] {
+        border-color: $blurple-replace !important;
+
+        & > svg > path {
+            fill: $blurple-replace;
+        }
+    }
+}
+.radioIconForeground-XwlXQN { fill: $blurple-replace; }
+
+/* Dropdown Modals */
+.item-1tOPte:not(.colorDanger-2qLCe1) {
+    &.focused-3afm-j, &:active {
+        background: $blurple-replace;
+    }
+}
+
+/* SLiderbars */ 
+.slider-1PF9SW > .bar-2Qqk5Z > .barFill-23-gu- { background-color: $blurple-replace; }
+
+/* User Settings */
+.notificationSettings-1NQKPR > div > .wrapper-3jrx9n { /* -> Overlay -> Overlay Notifications */ 
+    border-color: $blurple-replace;
+
+    & > .selected-mKYnfr.option-n0icdO {
+        background-color: $blurple-replace;
+    }
+
+    & > .option-n0icdO:hover {
+        background-color: $blurple-replace;
+    }
+}
+.gameVerifiedIcon-2dGGa5 > .flowerStar-1GeTsn > path { fill: $blurple-replace; } /* -> Game Activity -> Added Games (Verified Games) */
