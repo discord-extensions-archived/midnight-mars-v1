@@ -510,6 +510,7 @@
     background-color: var(--background-tertiary);
 }
 
+/* annihlate blurple */
 .bd-switch-checked,
 .selected-mKYnfr.option-n0icdO,
 .option-n0icdO:hover,
@@ -522,7 +523,8 @@
 .topSectionPlaying-1J5E4n,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .wrapper-3WhCwL:hover,
-.circleIconButton-jET_ig.selected-ugP_am {
+.circleIconButton-jET_ig.selected-ugP_am,
+.newMessagesBar-265mhP {
   background-color: var(--background-accent);
 }
 
