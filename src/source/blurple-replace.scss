@@ -21,6 +21,14 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
         border-color: $blurple-replace;
     }
 }
+[id*="invite-people"] {
+    color: $blurple-replace;
+
+    &:hover, &:active {
+        color: #fff
+    }
+}
+
 
 /* Checkboxes */ 
 .checkbox-1ix_J3.checked-3_4uQ9 { 
@@ -46,8 +54,6 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
     }
 }
 
-/* SLiderbars */ 
-.slider-1PF9SW > .bar-2Qqk5Z > .barFill-23-gu- { background-color: $blurple-replace; }
 
 /* Screenshare */
 #app-mount .sourceThumbnail-27dolk { 
@@ -56,6 +62,7 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 #app-mount .selectorButton-EEUWed {
     &.selectorButtonSelected-t5V9On, &:hover { background-color: $blurple-replace; }
 }
+
 
 /* User Settings */
 .notificationSettings-1NQKPR > div > .wrapper-3jrx9n { /* -> Overlay -> Overlay Notifications */ 
@@ -70,3 +77,8 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
     }
 }
 .gameVerifiedIcon-2dGGa5 > .flowerStar-1GeTsn > path { fill: $blurple-replace; } /* -> Game Activity -> Added Games (Verified Games) */
+
+
+/* Misc */ 
+.slider-1PF9SW > .bar-2Qqk5Z > .barFill-23-gu- { background-color: $blurple-replace; } /* SLiderbars */ 
+.footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz:focus { border-color: $blurple-replace; } /* Message @User */ 
