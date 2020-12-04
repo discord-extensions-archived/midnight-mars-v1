@@ -2,7 +2,8 @@
 @use "./src/source/theme-source.css";
 @use "./src/source/join-create-server.css";
 @use "./src/source/watermark.css";
-@use "./src/source/blurple-replace.scss";
+@use "./src/source/blurple-changes.scss";
+@use "./src/source/nicer-roles.scss";
 
 /* Addons */
 @use "./src/addons/revamped-user-area.css";
@@ -52,43 +53,30 @@
 }
 
 
-/* Separation + Rounding + Other Changes */
-.chat-3bRxxu,
-.container-1D34oG,
-.container-3Mxszk,
-.applicationStore-1pNvnv,
-.pageWrapper-1PgVDX,
-.container-1D34oG,
-.pageWrapper-1PgVDX { /* Separation From Sidebars */
-    position: relative;
-    padding-right: 7px;
-    left: 7px;
-}
-.sidebar-2K8pFh,
-.chat-3bRxxu,
-.container-1D34oG,
-.pageWrapper-1PgVDX { /* Rounding + Top/Bottom Separation */
+/* Separation & Rounding */
+.sidebar-2K8pFh { /* Sidebar Separation + Roudning */
     border-radius: 15px !important;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .chat-3bRxxu,
 .container-1D34oG,
-.pageWrapper-1PgVDX { /* Right Separation */
-    margin-right: 15px;
+.container-3Mxszk,
+.pageWrapper-1PgVDX,
+.applicationStore-1pNvnv { /* Container Separation + Rounding */
+    position: relative;
+    border-radius: 15px !important;
+    margin: 10px 10px 10px 0;
+    padding-right: 7px;
+    left: 7px;
+}
+.pageWrapper-1PgVDX,
+.applicationStore-1pNvnv { /* Other Separation + Rounding */
+    margin-right: 17px;
 }
 
-.guilds-1SWlCJ { /* Guilds List Positioning Fix */
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.chat-3bRxxu,
-.container-1D34oG  /* Members List + Activity Fix */ {
-    padding-right: 0;
-}
 
-
-/* Topbar + Chat */
+/* Topbar & Chat Changes */
 .titleBar-AC4pGV { /* Topbar Change */
     background: var(--background-secondary-alt);
     margin-top: 0px;
@@ -111,33 +99,6 @@
 }
 
 
-/* Nicer Roles */
-.role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
-    z-index: 1;
-    position: relative;
-    overflow: hidden;
-    border: solid;
-    border-width: 0 0 0 2px;
-    border-radius: 3px;
-}
-.roleCircle-3xAZ1j.flex-1O1GKY {
-    height: 4px;
-    width: 4px;
-
-    &::before {
-        content: " ";
-        position: absolute;
-        z-index: -1;
-        background: inherit;
-        opacity: 0.15;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    }
-}
-
-
 /* Chatbar */
 .scrollableContainer-2NUZem.webkit-HjD9Er { /* Rounded Chatbar */
     border-radius: 25px;
@@ -157,4 +118,15 @@
 
 [aria-label="WOAH THERE. WAY TOO SPICY"] > div > form > .footer-2gL1pp { /* u disgusting spammer */
     margin-top: 10px;
+}
+
+.guilds-1SWlCJ { /* Guilds List Positioning Fix */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-3bRxxu,
+.container-1D34oG,
+.applicationStore-1pNvnv  /* Members List + Activity Fix */ {
+    padding-right: 0;
 }
