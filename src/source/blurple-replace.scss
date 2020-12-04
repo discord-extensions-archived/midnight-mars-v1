@@ -1,5 +1,5 @@
 $blurple-replace: rgb(168, 113, 182);
-$blurple-replace-ghost: rgba(168, 113, 182, 0.15);
+
 
 /* Buttons */
 .colorBrand-3pXr91:not(.buttonColor-7qQbGO) { /* Color Brand */
@@ -9,7 +9,7 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 
     &.lookGhost-2Fn_0- {
         color: $blurple-replace;
-        background-color: $blurple-replace-ghost;
+        background-color: rgba(168, 113, 182, 0.15);
     }
 
     &.lookLink-9FtZy- {
@@ -47,6 +47,7 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 }
 .radioIconForeground-XwlXQN { fill: $blurple-replace; }
 
+
 /* Dropdown Modals */
 .item-1tOPte:not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
     &.focused-3afm-j, &:active {
@@ -61,6 +62,17 @@ $blurple-replace-ghost: rgba(168, 113, 182, 0.15);
 }
 #app-mount .selectorButton-EEUWed {
     &.selectorButtonSelected-t5V9On, &:hover { background-color: $blurple-replace; }
+}
+
+
+/* GIF Picker */ 
+#app-mount .categoryFadeBlurple-1j72_A { background-color: rgba(168, 113, 182, 0.8); }
+#app-mount .result-3w1ZcL {
+    background-color: $blurple-replace !important;
+
+    &:hover::after, &.focused-1En8bG::after {
+        box-shadow: inset 0 0 0 2px $blurple-replace, inset 0 0 0 3px #2f3136; 
+    }
 }
 
 
