@@ -27,3 +27,5 @@ If you'd like to submit an addon that's compatiable and you want everyone to use
 Thanks to Nyria#0001's Comfy Theme for giving me the nice role pills + nice activity cards idea (A lot of inspiration came from that theme, I recommend that you check it out, you might like it more! https://github.com/NYRI4/Comfy-theme) <3
 
 Thanks to Ben#0855 for the theme name and theme description ideas <3
+
+Thanks to Bowser#0001 for the original show discord when you're offline idea as well as a thanks to aaronlink127#0127 for helping me figure out why the icon wouldn't work <3
