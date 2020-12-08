@@ -7,28 +7,28 @@
 }
 
 .userPopout-3XzG_A { /* Poput Headers */
-    & > .headerPlaying-j0WQBV {
+    .headerPlaying-j0WQBV {
         background: var(--background-tertiary);
 
-        & > .activity-11LB_k {
+        .activity-11LB_k {
             background: #A871B6; 
             box-shadow: var(--box-shadow) #53385a;
         }
     }
 
-    & > .headerSpotify-zpWxgT {
+    .headerSpotify-zpWxgT {
         background: var(--background-tertiary);
 
-        & > .activity-11LB_k {
+        .activity-11LB_k {
             background: #1DB954; 
             box-shadow: var(--box-shadow) #218F4F;
         }
     }
 
-    & > .headerStreaming-2FjmGz {
+    .headerStreaming-2FjmGz {
         background: var(--background-tertiary);
 
-        & > .activity-11LB_k {
+        .activity-11LB_k {
             background: #9059F6; 
             box-shadow: var(--box-shadow) #694EA8;
         }
@@ -38,7 +38,7 @@
 .topSectionPlaying-1J5E4n { /* Playing Header */
     background: var(--background-tertiary);
 
-    & > .headerFill-adLl4x > .activityProfile-2bJRaP {
+    .headerFill-adLl4x .activityProfile-2bJRaP {
         background: #A871B6; 
         box-shadow: var(--box-shadow) #53385a;
     }
@@ -46,7 +46,7 @@
 .topSectionSpotify-1lI0-P { /* Spotify Header */ 
     background: var(--background-tertiary);
 
-    & > .headerFill-adLl4x > .activityProfile-2bJRaP { 
+    .headerFill-adLl4x .activityProfile-2bJRaP { 
         background: #1DB954; 
         box-shadow: var(--box-shadow) #218F4F;
     }
@@ -54,7 +54,7 @@
 .topSectionStreaming-1Tpf5X { /* Streaming Header */
     background: var(--background-tertiary);
 
-    & > .headerFill-adLl4x > .activityProfile-2bJRaP {
+    .headerFill-adLl4x .activityProfile-2bJRaP {
         background: #9059F6; 
         box-shadow: var(--box-shadow) #694EA8;
     }
@@ -106,16 +106,16 @@
 
 
 /* White Status Fixes */ 
-.wrapper-3t9DeA > .svg-2V3M55 {
-    & > [mask*="status-online"] {
+.wrapper-3t9DeA .svg-2V3M55 {
+    [mask*="status-online"] {
         fill: #43B480;
     }
 
-    & > [mask*="status-idle"] {
+    [mask*="status-idle"] {
         fill: #F8A51A;
     }
 
-    & > [mask*="status-dnd"] {
+    [mask*="status-dnd"] {
         fill: #F04747;
     }
 }
@@ -123,9 +123,9 @@
 
 /* White Text Fixes */ 
 .activity-1ythUs {
-    & > .activityHeader-1PExlk, .customStatusText-39gdCI { 
+    .activityHeader-1PExlk, .customStatusText-39gdCI { 
         color: var(--header-secondary); 
     }
 }
-.customStatus-1bh2V9 > .customStatusText-3YJeRZ { color: var(--header-secondary); }
+.customStatus-1bh2V9 .customStatusText-3YJeRZ { color: var(--header-secondary); }
 .nameTag-m8r81H:not(.nameTag-2IFDfL) { color: var(--header-secondary); }
