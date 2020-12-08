@@ -16,7 +16,6 @@
 @use "./src/addons/better-activity-cards.scss";
 @use "./src/addons/nicer-tooltips.scss";
 @use "./src/addons/rounded-borders.css";
-@use "./src/addons/user-connections.scss";
 
 
 .theme-dark, 
@@ -84,7 +83,7 @@
 .title-3qD0b-.container-1r6BKw.themed-ANHk51 { /* Nicer Topbar Title */
     background-color: var(--background-secondary);
 
-    & > div::after {
+    div::after {
         display: none;
     }
 }
@@ -107,12 +106,7 @@
 
 
 /* Misc Changes and Fixes */
-.botTag-3W9SuW,
-.botTagCozy-1fFsZk:not(.tag) { /* Bot Tags */
-    background-color: var(--background-tertiary);
-}
-
-[aria-label="WOAH THERE. WAY TOO SPICY"] > div > form > .footer-2gL1pp { /* u disgusting spammer */
+[aria-label="WOAH THERE. WAY TOO SPICY"] div form .footer-2gL1pp { /* u disgusting spammer */
     margin-top: 10px;
 }
 
