@@ -5,7 +5,7 @@ $quotes-text: #fff;
 .blockquoteContainer-U5TVEi {
     padding: 2px 0 2px 0;
 
-    & blockquote {
+    blockquote {
         background-color: $quotes-background-border;
         border: 1px solid $quotes-background-border;
         color: $quotes-text; 
@@ -13,7 +13,7 @@ $quotes-text: #fff;
         padding: 4px 11px 4px
     }
 
-    & > .blockquoteDivider-2hH8H6 {
+    .blockquoteDivider-2hH8H6 {
         background-color: $quotes-divider;
         border-radius: 4px 0 0 4px;
     }
