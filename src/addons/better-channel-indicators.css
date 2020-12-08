@@ -11,7 +11,7 @@
 
 /* Removes Original Indicators */
 .content-1x5b-n, 
-.channel-2QD9_O > .layout-2DM8Md {
+.channel-2QD9_O .layout-2DM8Md {
     background: none !important;
 }
 
@@ -50,9 +50,6 @@
     background: var(--unread-bg);
     border-radius: var(--bg-rounding);
 }
-.modeUnread-1qO3K1::hover {
-    
-}
 .modeUnread-1qO3K1::before {
     border-left: var(--border-info) var(--unread-badge);
 }
@@ -73,6 +70,6 @@
     margin-left: 0;
     max-width: 233px;
 }
-#private-channels > div > .channel-2QD9_O > div > .avatar-3uk_u9 {
+#private-channels div .channel-2QD9_O div .avatar-3uk_u9 {
     margin-left: 4px;
 }
