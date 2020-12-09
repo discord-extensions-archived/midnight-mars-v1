@@ -1,6 +1,5 @@
 $blurple-replace: rgb(168, 113, 182);
 
-
 /* Buttons */
 .colorBrand-3pXr91:not(.buttonColor-7qQbGO) { /* Color Brand */
     &.lookFilled-1Gx00P {
@@ -9,10 +8,11 @@ $blurple-replace: rgb(168, 113, 182);
 
     &.lookGhost-2Fn_0- {
         color: $blurple-replace;
-        background-color: rgba(168, 113, 182, 0.15);
+        background-color: rgba($blurple-replace, 0.08);
     }
 
-    &.lookLink-9FtZy- {
+    &.lookLink-9FtZy-,
+    &.lookInverted-2D7oAl {
         color: $blurple-replace;
     }
 
@@ -32,41 +32,42 @@ $blurple-replace: rgb(168, 113, 182);
 
 /* Checkboxes */ 
 .checkbox-1ix_J3.checked-3_4uQ9 { 
-    &[style*="background-color: rgb(114, 137, 218);"] { 
+    &.round-2jCFai,
+    &[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] { 
         background-color: $blurple-replace !important; 
         border-color: $blurple-replace !important; 
     }
 
-    &[style*="border-color: rgb(114, 137, 218);"] {
+    &[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218);"] {
         border-color: $blurple-replace !important;
 
-        & > svg > path {
+        svg path {
             fill: $blurple-replace;
         }
     }
 }
-.radioIconForeground-XwlXQN { fill: $blurple-replace; }
-
-
-/* Dropdown Modals */
-.item-1tOPte:not(.colorDanger-2qLCe1):not(#user-context-user-volume) {
-    &.focused-3afm-j, &:active {
-        background: $blurple-replace;
-    }
+.radioIconForeground-XwlXQN { 
+    fill: $blurple-replace; 
 }
 
 
 /* Screenshare */
 #app-mount .sourceThumbnail-27dolk { 
-    &.selected-1nOkyc, &:hover { box-shadow: inset 0 0 0 2px $blurple-replace; }
+    &.selected-1nOkyc, &:hover { 
+        box-shadow: inset 0 0 0 2px $blurple-replace; 
+    }
 }
 #app-mount .selectorButton-EEUWed {
-    &.selectorButtonSelected-t5V9On, &:hover { background-color: $blurple-replace; }
+    &.selectorButtonSelected-t5V9On, &:hover { 
+        background-color: $blurple-replace; 
+    }
 }
 
 
 /* GIF Picker */ 
-#app-mount .categoryFadeBlurple-1j72_A { background-color: rgba(168, 113, 182, 0.8); }
+#app-mount .categoryFadeBlurple-1j72_A { 
+    background-color: rgba($blurple-replace, 0.8);
+}
 #app-mount .result-3w1ZcL {
     background-color: $blurple-replace !important;
 
@@ -77,20 +78,35 @@ $blurple-replace: rgb(168, 113, 182);
 
 
 /* User Settings */
-.notificationSettings-1NQKPR > div > .wrapper-3jrx9n { /* -> Overlay -> Overlay Notifications */ 
+.notificationSettings-1NQKPR div .wrapper-3jrx9n { /* -> Overlay -> Overlay Notifications */ 
     border-color: $blurple-replace;
 
-    & > .selected-mKYnfr.option-n0icdO {
+    .selected-mKYnfr.option-n0icdO {
         background-color: $blurple-replace;
     }
 
-    & > .option-n0icdO:hover {
+    .option-n0icdO:hover {
         background-color: $blurple-replace;
     }
 }
-.gameVerifiedIcon-2dGGa5 > .flowerStar-1GeTsn > path { fill: $blurple-replace; } /* -> Game Activity -> Added Games (Verified Games) */
+.gameVerifiedIcon-2dGGa5 .flowerStar-1GeTsn path { /* -> Game Activity -> Added Games (Verified Games) */
+    fill: $blurple-replace; 
+}
 
 
 /* Misc */ 
-.slider-1PF9SW > .bar-2Qqk5Z > .barFill-23-gu- { background-color: $blurple-replace; } /* SLiderbars */ 
-.footer-1fjuF6 > .inputWrapper-31_8H8 > .inputDefault-_djjkz:focus { border-color: $blurple-replace; } /* Message @User */ 
+.slider-1PF9SW .bar-2Qqk5Z .barFill-23-gu- { /* Sliderbars */ 
+    background-color: $blurple-replace; 
+} 
+
+.footer-1fjuF6 .inputWrapper-31_8H8 .inputDefault-_djjkz:focus { /* Message @User */ 
+    border-color: $blurple-replace; 
+}
+
+.botTag-1un5a6 { /* Bot Tags */ 
+    background-color: $blurple-replace; 
+}
+
+.newMessagesBar-265mhP { /* New Messages */
+    background-color: $blurple-replace; 
+}
