@@ -7,7 +7,7 @@
     border-top-color: #0F0C12 !important;
 }
 
-.tooltipContent-bqVLWK > .colorMuted-HdFt4q { /* Muted */
+.tooltipContent-bqVLWK .colorMuted-HdFt4q { /* Muted */
     padding-top: 2px;
     color: #F04747;
     font-weight: bold;
@@ -22,10 +22,10 @@
     }
 }
  
-.tooltipContent-bqVLWK > .row-2OVM4t > svg { /* In Voice Chat */
+.tooltipContent-bqVLWK .row-2OVM4t > svg { /* In Voice Chat */
     filter: drop-shadow(0 0 1.5px #000);
 
-    & > path {
+    path {
         fill: #43B581
     }
 }
