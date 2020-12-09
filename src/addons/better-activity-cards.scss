@@ -1,62 +1,57 @@
 .activity-11LB_k,
 .activityProfile-2bJRaP { /* Activity Cards */
-    --box-shadow: 3px 3px 3px;
+    background: var(--activity-background); 
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg);
+    box-shadow: 3px 3px 3px var(--activity-drop-shadow);
     border-radius: 4px; 
     padding: 8px;
     margin: 0 9px 10px 6px; 
 }
 
-.userPopout-3XzG_A { /* Poput Headers */
-    .headerPlaying-j0WQBV {
-        background: var(--background-tertiary);
-
-        .activity-11LB_k {
-            background: #A871B6; 
-            box-shadow: var(--box-shadow) #53385a;
-        }
-    }
-
-    .headerSpotify-zpWxgT {
-        background: var(--background-tertiary);
-
-        .activity-11LB_k {
-            background: #1DB954; 
-            box-shadow: var(--box-shadow) #218F4F;
-        }
-    }
-
-    .headerStreaming-2FjmGz {
-        background: var(--background-tertiary);
-
-        .activity-11LB_k {
-            background: #9059F6; 
-            box-shadow: var(--box-shadow) #694EA8;
-        }
-    }
-}
-
-.topSectionPlaying-1J5E4n { /* Playing Header */
+.userPopout-3XzG_A .header-2BwW8b { /* Poput Headers */
     background: var(--background-tertiary);
 
-    .headerFill-adLl4x .activityProfile-2bJRaP {
-        background: #A871B6; 
-        box-shadow: var(--box-shadow) #53385a;
+    &.headerPlaying-j0WQBV .activity-11LB_k {
+        --activity-background: #A871B6; 
+        --activity-drop-shadow: #53385a;
+    }
+
+    &.headerXbox-3G-4PF .activity-11LB_k {
+        --activity-background: #107C10; 
+        --activity-drop-shadow: #0a530a;
+    }
+
+    &.headerSpotify-zpWxgT .activity-11LB_k {
+        --activity-background: #1DB954; 
+        --activity-drop-shadow: #218F4F;
+    }
+
+    &.headerStreaming-2FjmGz .activity-11LB_k {
+        --activity-background: #9059F6; 
+        --activity-drop-shadow: #694EA8;
     }
 }
-.topSectionSpotify-1lI0-P { /* Spotify Header */ 
+.inner-1ilYF7 .flex-1xMQg5.root-SR8cQa > div:first-child {
     background: var(--background-tertiary);
 
-    .headerFill-adLl4x .activityProfile-2bJRaP { 
-        background: #1DB954; 
-        box-shadow: var(--box-shadow) #218F4F;
+    &.topSectionPlaying-1J5E4n .headerFill-adLl4x .activityProfile-2bJRaP { /* Playing Header */
+        --activity-background: #A871B6; 
+        --activity-drop-shadow: #53385a;
     }
-}
-.topSectionStreaming-1Tpf5X { /* Streaming Header */
-    background: var(--background-tertiary);
 
-    .headerFill-adLl4x .activityProfile-2bJRaP {
-        background: #9059F6; 
-        box-shadow: var(--box-shadow) #694EA8;
+    &.topSectionXbox-3fWLjS .headerFill-adLl4x .activityProfile-2bJRaP { /* Xbox Header */
+        --activity-background: #107C10; 
+        --activity-drop-shadow: #0a530a;
+    }
+
+    &.topSectionSpotify-1lI0-P .headerFill-adLl4x .activityProfile-2bJRaP { /* Spotify Header */
+        --activity-background: #1DB954; 
+        --activity-drop-shadow: #218F4F;
+    }
+
+    &.topSectionStreaming-1Tpf5X .headerFill-adLl4x .activityProfile-2bJRaP { /* Streaming Header */
+        --activity-background: #9059F6; 
+        --activity-drop-shadow: #694EA8;
     }
 }
 
@@ -70,6 +65,9 @@
         background-color: #3CA374;
         color: #fff;
     }
+}
+.actionsProfile-jEtjVX span button {
+    margin-top: -5px;
 }
 
 

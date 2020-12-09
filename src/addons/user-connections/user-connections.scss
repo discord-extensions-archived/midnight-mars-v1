@@ -1,0 +1,33 @@
+@use "./default.scss";
+@use "./better-user-connections.scss";
+@use "./discord.bio.scss";
+
+.connectedAccount-36nQx7 {
+    background-color: rbga(0, 0, 0, 0);
+    border-width: 0;
+
+    .connectedAccountNameInner-1phBvE {
+        &::after {
+            content: "";
+            position: absolute;
+            border-radius: 1px 3px 3px 1px;
+            margin-left: -35px;
+            height: 46px;
+            width: 44%;
+            background-color: var(--connection-background);
+            box-shadow: -2px 0 0 0 var(--connection-border);
+        }
+    }
+}
+
+.connectedAccountVerifiedIcon-3aZz_K svg path {
+    fill: #fff;
+    opacity: 0.4;
+}
+
+.connectedAccountIcon-3P3V6F,
+.connectedAccountName-f8AEe2,
+.connectedAccountNameInner-1phBvE span,
+.connectedAccountNameInner-1phBvE + .anchor-3Z-8Bb {
+    z-index: 1;
+}
