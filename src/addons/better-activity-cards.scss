@@ -1,9 +1,9 @@
-@keyframes backgroundAnimation {
-    0% { background-position: -500px -750px; }
+@keyframes bgAni {
+    0% { background-position: -500px -650px; }
     25% { background-position: 300px -500px; }
-    50% { background-position: -500px -750px; }
+    50% { background-position: -500px -650px; }
     75% { background-position: 300px -500px; }
-    100% { background-position: -500px -750px; }
+    100% { background-position: -500px -650px; }
 }
 
 .activityUserPopout-2yItg2,
@@ -11,7 +11,7 @@
     background: var(--activity-background) url(https://cdn.naila.bot/Discord/playing-background.svg); 
     background-size: 200px;
     box-shadow: 3px 3px 3px var(--activity-drop-shadow);
-    animation: backgroundAnimation 45s infinite;
+    animation: bgAni 35s ease-out infinite;
     border-radius: 4px; 
     padding: 8px;
     margin: 0 9px 10px 6px; 
