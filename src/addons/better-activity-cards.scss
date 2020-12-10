@@ -1,5 +1,5 @@
 @keyframes backgroundAnimation {
-    0% { background-position: -500px 100%; }
+    0% { background-position: -500px -900px; }
     50% { background-position: 500px -500px; }
     100% { background-position: -500px -900px; }
   }
@@ -8,10 +8,10 @@
 .activityProfile-2bJRaP { /* Activity Cards */
     background: var(--activity-background) url(https://cdn.naila.bot/Discord/playing-background.svg); 
     box-shadow: 3px 3px 3px var(--activity-drop-shadow);
+    animation: backgroundAnimation 35s infinite;
     border-radius: 4px; 
     padding: 8px;
     margin: 0 9px 10px 6px; 
-    animation: backgroundAnimation 35s infinite;
 }
 
 .userPopout-3XzG_A .header-2BwW8b { /* Poput Headers */
