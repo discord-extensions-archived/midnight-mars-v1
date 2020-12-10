@@ -1,8 +1,17 @@
-.activity-11LB_k,
+@keyframes bgAni {
+    0% { background-position: -500px -650px; }
+    25% { background-position: 300px -500px; }
+    50% { background-position: -500px -650px; }
+    75% { background-position: 300px -500px; }
+    100% { background-position: -500px -650px; }
+}
+
+.activityUserPopout-2yItg2,
 .activityProfile-2bJRaP { /* Activity Cards */
-    background: var(--activity-background); 
-    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg);
+    background: var(--activity-background) url(https://cdn.naila.bot/Discord/playing-background.svg); 
+    background-size: 200px;
     box-shadow: 3px 3px 3px var(--activity-drop-shadow);
+    animation: bgAni 35s ease-out infinite;
     border-radius: 4px; 
     padding: 8px;
     margin: 0 9px 10px 6px; 
@@ -11,30 +20,32 @@
 .userPopout-3XzG_A .header-2BwW8b { /* Poput Headers */
     background: var(--background-tertiary);
 
-    &.headerPlaying-j0WQBV .activity-11LB_k {
+    &.headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
         --activity-background: #A871B6; 
         --activity-drop-shadow: #53385a;
     }
 
-    &.headerXbox-3G-4PF .activity-11LB_k {
+    &.headerXbox-3G-4PF .activityUserPopout-2yItg2 {
         --activity-background: #107C10; 
         --activity-drop-shadow: #0a530a;
     }
 
-    &.headerSpotify-zpWxgT .activity-11LB_k {
+    &.headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
         --activity-background: #1DB954; 
         --activity-drop-shadow: #218F4F;
     }
 
-    &.headerStreaming-2FjmGz .activity-11LB_k {
+    &.headerStreaming-2FjmGz .activityUserPopout-2yItg2 {
         --activity-background: #9059F6; 
         --activity-drop-shadow: #694EA8;
     }
 }
+
 .inner-1ilYF7 .flex-1xMQg5.root-SR8cQa > div:first-child {
     background: var(--background-tertiary);
 
-    &.topSectionPlaying-1J5E4n .headerFill-adLl4x .activityProfile-2bJRaP { /* Playing Header */
+    &.topSectionPlaying-1J5E4n .headerFill-adLl4x .activityProfile-2bJRaP,
+    &.topSectionPlaying-1J5E4n div[class] { /* Playing Header */
         --activity-background: #A871B6; 
         --activity-drop-shadow: #53385a;
     }
@@ -99,7 +110,7 @@
     /* Misc */
     &.profileBadgePartner-j6Lwhr { background-image: url(/assets/6203964d9d25c394a573fd4f6be36d97.svg); }
     &.profileBadgeVerifiedDeveloper-195KfD { background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg); }
-    &[class*="powercord-badge"] > svg { color: #7289DA; } /* yes im lazy */
+    &[class*="powercord-badge"] svg { color: #7289DA; } /* yes im lazy */
 }
 
 
