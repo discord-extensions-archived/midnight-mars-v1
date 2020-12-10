@@ -1,14 +1,17 @@
 @keyframes backgroundAnimation {
-    0% { background-position: -500px -900px; }
-    50% { background-position: 500px -500px; }
-    100% { background-position: -500px -900px; }
-  }
+    0% { background-position: -500px -750px; }
+    25% { background-position: 300px -500px; }
+    50% { background-position: -500px -750px; }
+    75% { background-position: 300px -500px; }
+    100% { background-position: -500px -750px; }
+}
 
 .activityUserPopout-2yItg2,
 .activityProfile-2bJRaP { /* Activity Cards */
     background: var(--activity-background) url(https://cdn.naila.bot/Discord/playing-background.svg); 
+    background-size: 200px;
     box-shadow: 3px 3px 3px var(--activity-drop-shadow);
-    animation: backgroundAnimation 35s infinite;
+    animation: backgroundAnimation 45s infinite;
     border-radius: 4px; 
     padding: 8px;
     margin: 0 9px 10px 6px; 
@@ -107,7 +110,7 @@
     /* Misc */
     &.profileBadgePartner-j6Lwhr { background-image: url(/assets/6203964d9d25c394a573fd4f6be36d97.svg); }
     &.profileBadgeVerifiedDeveloper-195KfD { background-image: url(/assets/45cd06af582dcd3c6b79370b4e3630de.svg); }
-    &[class*="powercord-badge"] > svg { color: #7289DA; } /* yes im lazy */
+    &[class*="powercord-badge"] svg { color: #7289DA; } /* yes im lazy */
 }
 
 
