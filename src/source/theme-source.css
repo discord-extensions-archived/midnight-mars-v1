@@ -463,7 +463,8 @@
     background-color: var(--background-secondary-alt);
 }
 
-.invite-18yqGF.container-o3RxSG { /* Spotify ListenAlong */
+.invite-18yqGF.container-o3RxSG,
+.invite-18yqGF.preview-yX6Nx7 { /* Invites */
     background-color: var(--background-secondary-alt);
     border-color: var(--background-secondary);
 }
