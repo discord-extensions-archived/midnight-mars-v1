@@ -1,3 +1,105 @@
+/* Separation & Rounding */
+.sidebar-2K8pFh { /* Sidebar Separation + Rounding */
+    border-radius: 15px !important;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.chat-3bRxxu,
+.container-1D34oG,
+.container-3Mxszk,
+.pageWrapper-1PgVDX,
+.applicationStore-1pNvnv { /* Container Separation + Rounding */
+    position: relative;
+    border-radius: 15px !important;
+    margin: 7px 14px 7px 0;
+    left: 7px;
+}
+
+
+/* Topbar & Chat Changes */
+.titleBar-AC4pGV { /* Topbar Change */
+    background: var(--background-secondary-alt);
+    margin-top: 0px;
+}
+.winButton-iRh8-Z {
+    margin-top: 2px;
+}
+
+.title-3qD0b-.container-1r6BKw.themed-ANHk51 { /* Nicer Topbar Title */
+    background-color: var(--background-secondary);
+
+    div::after {
+        display: none;
+    }
+}
+.toolbar-1t6TWx { /* Tooltip Background */
+    background-color: var(--background-secondary-alt);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+
+/* Chatbar */
+.scrollableContainer-2NUZem.webkit-HjD9Er { /* Rounded Chatbar */
+    border-radius: 25px;
+}
+
+.channelTextArea-2VhZ6z > .container-2fRDfG {  /* Replying */
+    border-radius: 25px;
+    margin-bottom: 2px;
+}
+
+
+/* Misc Changes and Fixes */
+[aria-label="WOAH THERE. WAY TOO SPICY"] div form .footer-2gL1pp { /* u disgusting spammer */
+    margin-top: 10px;
+}
+
+.guilds-1SWlCJ { /* Guilds List Positioning Fix */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-3bRxxu,
+.container-1D34oG,
+.applicationStore-1pNvnv  /* Members List + Activity Fix */ {
+    padding-right: 0;
+}
+
+
+
+.chat-3bRxxu {
+    background-color: var(--background-tertiary);
+
+    .title-3qD0b-.container-1r6BKw.themed-ANHk51 {
+        border-bottom-right-radius: 15px;
+    }
+
+    .content-yTz4x3 .chatContent-a9vAAp {
+        background-color: var(--background-primary);
+        border-bottom-right-radius: 15px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            border-top-left-radius: 15px;
+            box-shadow: 0 -25px 0 0 var(--background-primary);
+            top: 0px;
+            right: -30px;
+            height: 50px;
+            width: 30px;
+        }
+    }
+    
+    .membersWrap-2h-GB4 .members-1998pB {
+        margin-top: 5px;
+        margin-left: 5px;
+        border-radius: 15px;
+    }
+}
+
+/* Below is everything that just recolors stuff lol */
+
 /* Webkit Scrollers */
 .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
 .auto-Ge5KZx.scrollerBase-289Jih::-webkit-scrollbar-thumb,
@@ -463,7 +565,8 @@
     background-color: var(--background-secondary-alt);
 }
 
-.invite-18yqGF.container-o3RxSG { /* Spotify ListenAlong */
+.invite-18yqGF.container-o3RxSG,
+.invite-18yqGF.preview-yX6Nx7 { /* Invites */
     background-color: var(--background-secondary-alt);
     border-color: var(--background-secondary);
 }
