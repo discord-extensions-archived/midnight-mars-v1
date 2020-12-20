@@ -29,3 +29,5 @@ Thanks to Nyria#0001's Comfy Theme for giving me the nice role pills + nice acti
 Thanks to Ben#0855 for the theme name and theme description ideas <3
 
 Thanks to Bowser#0001 for the original show discord when you're offline idea as well as a thanks to aaronlink127#0127 for helping me figure out why the icon wouldn't work <3
+
+Thanks to Fahrenheight#0001 for allowing me to use the idea that separates the members list <3
