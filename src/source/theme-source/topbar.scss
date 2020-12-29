@@ -11,3 +11,11 @@
     border-radius: 12px;
     padding: 6px;
 }
+
+.container-1r6BKw.themed-ANHk51 { /* Titlebar Recolor */
+    background-color: var(--background-secondary);
+
+    .children-19S4PO::after {
+        display: none;
+    }
+}
