@@ -25,53 +25,47 @@
     margin-top: 2px;
 }
 
-.title-3qD0b-.container-1r6BKw.themed-ANHk51 { /* Nicer Topbar Title */
-    background-color: var(--background-secondary);
-
-    div::after {
-        display: none;
-    }
-}
 .toolbar-1t6TWx { /* Tooltip Background */
     background-color: var(--background-secondary-alt);
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 6px;
 }
 
 
 /* Chatbar */
-.scrollableContainer-2NUZem.webkit-HjD9Er { /* Rounded Chatbar */
-    border-radius: 25px;
+.channelTextArea-rNsIhG {
+    .scrollableContainer-2NUZem.webkit-HjD9Er { /* Rounded Chatbar */
+        border-radius: 25px;
+    }
+
+    .container-2fRDfG {  /* Replying */
+        border-radius: 25px;
+        margin-bottom: 2px;
+    }
 }
 
-.channelTextArea-2VhZ6z > .container-2fRDfG {  /* Replying */
-    border-radius: 25px;
-    margin-bottom: 2px;
-}
 
-
-/* Misc Changes and Fixes */
-[aria-label="WOAH THERE. WAY TOO SPICY"] div form .footer-2gL1pp { /* u disgusting spammer */
-    margin-top: 10px;
-}
-
-.guilds-1SWlCJ { /* Guilds List Positioning Fix */
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.chat-3bRxxu,
-.container-1D34oG,
-.applicationStore-1pNvnv  /* Members List + Activity Fix */ {
-    padding-right: 0;
-}
-
-/* Separate Memberlist + Search */
+/* Separate Memberslist */
 .chat-3bRxxu {
     background-color: var(--background-tertiary);
 
     .title-3qD0b-.container-1r6BKw.themed-ANHk51 {
         border-bottom-right-radius: 15px;
+        background-color: var(--background-secondary);
+
+        .children-19S4PO::after {
+            display: none;
+        }
+
+        .toolbar-1t6TWx [aria-label="Add Friends to DM"]::after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            background-color: var(--background-secondary);
+            left: 274px;
+            height: 12px;
+            width: 15px;
+        }
     }
 
     .content-yTz4x3 .chatContent-a9vAAp {
@@ -96,4 +90,21 @@
         margin-left: 5px;
         border-radius: 15px;
     }
+}
+
+
+/* Misc Changes and Fixes */
+[aria-label="WOAH THERE. WAY TOO SPICY"] div form .footer-2gL1pp { /* u disgusting spammer */
+    margin-top: 10px;
+}
+
+.guilds-1SWlCJ { /* Guilds List Positioning Fix */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-3bRxxu,
+.container-1D34oG,
+.applicationStore-1pNvnv  /* Members List + Activity Fix */ {
+    padding-right: 0;
 }
