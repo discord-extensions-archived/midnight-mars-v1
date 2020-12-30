@@ -66,8 +66,8 @@ $border-info: 4px solid;
 
 
 /* Hovering on channels */
-.containerDefault--pIXnN:not(.selected-3LIHYU):hover .content-1x5b-n,
-.containerDefault--pIXnN:not(.selected-3LIHYU) .content-1x5b-n:hover,
+.containerDefault--pIXnN .modeUnread-1qO3K1 .content-1x5b-n:hover,
+.containerDefault--pIXnN:hover .modeUnread-1qO3K1 .content-1x5b-n,
 .channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover {
     background: $hovered-bg;
 }

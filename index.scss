@@ -1,7 +1,5 @@
 /* Source */
-@use "./src/source/theme-recolor.css";
-@use "./src/source/theme-source.scss";
-@use "./src/source/join-create-server.css";
+@use "./src/source/theme-source/index.scss";
 @use "./src/source/watermark.css";
 @use "./src/source/blurple-replace.scss";
 @use "./src/source/nicer-roles.scss";
@@ -12,10 +10,8 @@
 @use "./src/addons/better-channel-indicators.scss";
 @use "./src/addons/better-quotes.scss";
 @use "./src/addons/text-status-indicators.css";
-@use "./src/addons/nicer-blocked-messages.css";
 @use "./src/addons/highlight-colors.scss";
 @use "./src/addons/better-activity-cards.scss";
-@use "./src/addons/nicer-tooltips.scss";
 @use "./src/addons/rounded-borders.css";
 @use "./src/addons/user-connections/user-connections.scss";
 
