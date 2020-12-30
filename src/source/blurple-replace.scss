@@ -94,16 +94,42 @@ $blurple-replace: rgb(168, 113, 182);
 }
 
 
-/* Misc */ 
-.slider-1PF9SW .bar-2Qqk5Z .barFill-23-gu- { /* Sliderbars */ 
-    background-color: $blurple-replace; 
-} 
+/* Reactions */
+.reactions-12N0jA div .reactionMe-wv5HKu {
+    background-color: rgba($blurple-replace, 0.3);
 
-.footer-1fjuF6 .inputWrapper-31_8H8 .inputDefault-_djjkz:focus { /* Message @User */ 
+    .reactionCount-2mvXRV {
+        color: $blurple-replace;
+    }
+}
+
+
+/* Mentions */
+.mentioned-xhSam7 .contents-2mQqc9 .markup-2BOw-j .mention.wrapper-3WhCwL:hover {
+    color: $blurple-replace;
+}
+.mention.wrapper-3WhCwL {
+    background-color: rgba($blurple-replace, 0.1);
+    color: $blurple-replace;
+
+    &:hover {
+        background-color: $blurple-replace;
+        color: #fff;
+    }
+}
+
+
+/* Misc */ 
+.input-cIJ7To.focused-1mmYsC, 
+.input-cIJ7To:focus { /* Borders */
     border-color: $blurple-replace; 
 }
 
-.botTag-1un5a6 { /* Bot Tags */ 
+.slider-1PF9SW .bar-2Qqk5Z .barFill-23-gu- { /* Sliderbars */ 
+    background-color: $blurple-replace; 
+}
+
+.botTag-3W9SuW { /* Bot Tags */ 
     background-color: $blurple-replace; 
 }
 
