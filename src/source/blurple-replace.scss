@@ -31,6 +31,14 @@ $blurple-replace: rgb(168, 113, 182);
 
 
 /* Checkboxes */ 
+.colorDefault-2K3EoJ:not(.focused-3afm-j) .checkbox-3s5GYZ, 
+.colorDefault-2K3EoJ:not(.focused-3afm-j) .radioSelection-1HmrQS {
+    fill: $blurple-replace;
+}
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+    fill: $blurple-replace;
+}
+
 .checkbox-1ix_J3.checked-3_4uQ9 { 
     &.round-2jCFai,
     &[style="width: 24px; height: 24px; border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] { 
