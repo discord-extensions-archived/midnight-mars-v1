@@ -1,7 +1,7 @@
 # 🪐Midnight Mars (dev)
 A simple, deep purple theme inspired by midnight on Mars.
 
-![Preview](./Previews/FullPreviewV5.png)
+![Preview](./Previews/FullPreviewV6.png)
 
 ### NOTE: This theme is still kinda in-dev, I plan on changing/adding more stuff, also some things may be whacky so please make an issue request if you notice anything <3
 
