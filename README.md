@@ -1,3 +1,6 @@
+# rewrite
+for more compatibility as well as nicer code, optimization, and my sanity, rewrite coming sometime in the near future. 
+
 # 🪐Midnight Mars (dev)
 A simple, deep purple theme inspired by midnight on Mars.
 
