@@ -1,0 +1,16 @@
+#app-mount {
+    .container-1r6BKw {
+        background-color: var(--background-secondary);
+        border-bottom-right-radius: var(--border-radius);
+
+        .children-19S4PO::after {
+            display: none;
+        }
+
+        .toolbar-1t6TWx {
+            background-color: var(--background-secondary-alt);
+            border-radius: 5px;
+            padding: 6px;
+        }
+    }
+}

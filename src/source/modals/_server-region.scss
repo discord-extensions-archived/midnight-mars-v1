@@ -1,0 +1,21 @@
+#app-mount .regionSelectModal-12e-57 {
+    background-color: var(--background-primary) !important;
+
+    .regionSelectModalHeader-21khC1 {
+        color: #fff;
+    }
+
+    .regionSelectModalOptions-2TWQOB div {
+        background-color: var(--background-secondary);
+        border-color: var(--background-secondary-alt);
+
+        &:hover {
+            border-color: var(--background-accent);
+        }
+    }
+
+    .regionSelectModalFooter-20C5iA {
+        color: #b4b4b4;
+        font-weight: 500;
+    }
+}

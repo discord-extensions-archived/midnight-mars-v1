@@ -1,0 +1,37 @@
+.theme-dark, 
+.theme-light, 
+:root {
+    // Main
+    --background-primary: #36263A !important;
+    --background-secondary: #281D30 !important;
+    --background-secondary-alt: #211828 !important;
+    --background-tertiary: #1a141f !important;
+    --background-accent: #9864a3 !important;
+    --background-floating: #19131f !important;
+    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
+    --background-modifier-active: rgba(255,255,255,0.04) !important;
+    --background-modifier-selected: rgba(170, 150, 176, 0.06) !important;	
+    --background-modifier-accent: rgba(170, 150, 176, 0.15) !important;
+    --channeltextarea-background: var(--background-secondary) !important;
+    --focus-primary: rgb(168, 113, 182) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #a996af !important;
+    --text-muted: #a996af !important;
+    --text-normal: #fbfbfb !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #7f7183 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+
+    // Misc
+    --border-radius: 5px;
+}

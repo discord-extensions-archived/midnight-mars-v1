@@ -1,0 +1,10 @@
+{
+    "name": "Midnight Mars",
+    "description": "A simple, deep purple theme.",
+    "version": "0.3.3d",
+    "author": "LuckFire#4800",
+    "theme": "index.scss",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "MIT"
+}

@@ -1,0 +1,23 @@
+#app-mount {
+    .container-1D34oG .tabBody-3YRQ8W {
+        .peopleColumn-29fq28 {
+            background-color: var(--background-primary);
+        }
+
+        .nowPlayingColumn-2sl4cE {
+            .outer-1AjyKL {
+                background-color: var(--background-secondary-alt);
+
+                &:hover {
+                    background-color: var(--background-tertiary);
+                }
+            }
+            .separator-XqIyoz {
+                background-color: var(--background-secondary);
+            }
+            .body-1ld4H7 {
+                background-color: var(--background-primary);
+            }
+        }
+    }
+}

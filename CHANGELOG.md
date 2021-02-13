@@ -1,0 +1,2 @@
+# v0.3.3d
+Major bulk changes. All code is now local and no longer uses imports, as well as support for Vizlaity. BetterDiscord and Web Support is coming soon:tm: aka once theme is v1.0.0. Some have also been redone, and some have been removed until they are redone.

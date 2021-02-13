@@ -1,0 +1,45 @@
+#app-mount {
+    .sidebar-2K8pFh { // Sidebar
+        border-radius: var(--border-radius);
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .chat-3bRxxu,
+    .container-1D34oG,
+    .container-3Mxszk,
+    .pageWrapper-1PgVDX,
+    .applicationStore-1pNvnv { /* Container Separation + Rounding */
+        position: relative;
+        border-radius: var(--border-radius);
+        margin: 7px 14px 7px 0;
+        left: 7px;
+    }
+
+    .chat-3bRxxu {
+        background-color: var(--background-tertiary);
+    
+        .content-yTz4x3 .chatContent-a9vAAp {
+            background-color: var(--background-primary);
+            border-bottom-right-radius: var(--border-radius);
+    
+            &::before {
+                content: "";
+                position: absolute;
+                border-top-left-radius: var(--border-radius);
+                box-shadow: 0 -25px 0 0 var(--background-primary);
+                top: 0px;
+                right: -30px;
+                height: 50px;
+                width: 30px;
+            }
+        }
+        
+        .membersWrap-2h-GB4 .members-1998pB, 
+        .searchResultsWrap-3-pOjs {
+            margin-top: 5px;
+            margin-left: 5px;
+            border-radius: var(--border-radius);
+        }
+    }
+}

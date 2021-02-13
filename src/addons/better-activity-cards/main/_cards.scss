@@ -1,0 +1,67 @@
+#app-mount {
+    // Activity Cards
+    .activityUserPopout-2yItg2,
+    .activityProfile-2bJRaP {
+        background: var(--activity-background) url(https://cdn.naila.bot/Discord/playing-background.svg); 
+        background-size: 200px;
+        box-shadow: 3px 3px 3px var(--activity-drop-shadow);
+        animation: bgAni 35s ease-out infinite;
+        border-radius: var(--border-radius); 
+        padding: 8px;
+        margin: 0 9px 10px 6px; 
+    }
+
+    // Poput
+    .userPopout-3XzG_A .header-2BwW8b {
+        background: var(--background-tertiary);
+
+        &.headerPlaying-j0WQBV .activityUserPopout-2yItg2 {
+            --activity-background: #A871B6; 
+            --activity-drop-shadow: #53385a;
+        }
+
+        &.headerXbox-3G-4PF .activityUserPopout-2yItg2 {
+            --activity-background: #107C10; 
+            --activity-drop-shadow: #0a530a;
+        }
+
+        &.headerSpotify-zpWxgT .activityUserPopout-2yItg2 {
+            --activity-background: #1DB954; 
+            --activity-drop-shadow: #218F4F;
+        }
+
+        &.headerStreaming-2FjmGz .activityUserPopout-2yItg2 {
+            --activity-background: #9059F6; 
+            --activity-drop-shadow: #694EA8;
+        }
+    }
+
+    .inner-1ilYF7 .flex-1xMQg5.root-SR8cQa > div:first-child {
+        background: var(--background-tertiary);
+
+        // Playing
+        &.topSectionPlaying-1J5E4n .headerFill-adLl4x .activityProfile-2bJRaP,
+        &.topSectionPlaying-1J5E4n div[class] {
+            --activity-background: #A871B6; 
+            --activity-drop-shadow: #53385a;
+        }
+
+        // Xbox
+        &.topSectionXbox-3fWLjS .headerFill-adLl4x .activityProfile-2bJRaP {
+            --activity-background: #107C10; 
+            --activity-drop-shadow: #0a530a;
+        }
+
+        // Spotify
+        &.topSectionSpotify-1lI0-P .headerFill-adLl4x .activityProfile-2bJRaP {
+            --activity-background: #1DB954; 
+            --activity-drop-shadow: #218F4F;
+        }
+
+        // Streaming
+        &.topSectionStreaming-1Tpf5X .headerFill-adLl4x .activityProfile-2bJRaP {
+            --activity-background: #9059F6; 
+            --activity-drop-shadow: #694EA8;
+        }
+    }
+}

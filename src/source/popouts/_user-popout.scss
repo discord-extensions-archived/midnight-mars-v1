@@ -1,0 +1,29 @@
+#app-mount .userPopout-3XzG_A {
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.2), 0 0 0 1px var(--background-tertiary);
+
+    .headerNormal-T_seeN {
+        background-color: var(--background-tertiary);
+    }
+
+    .body-3iLsc4 {
+        background-color: var(--background-secondary);
+    }
+
+    .footer-1fjuF6 {
+        background-color: var(--background-secondary);
+
+        // Reactive Text Input
+        //// idea from Material (https://github.com/Kings-Discord-Stuff/material/)
+        .input-cIJ7To {
+            border: solid 1px var(--background-tertiary);
+            border-bottom: solid 2px var(--background-tertiary);
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+            transition: all 0.2s;
+
+            &.focused-1mmYsC, &:focus {
+                border-bottom-color: var(--background-accent);
+            }
+        }
+    }
+}

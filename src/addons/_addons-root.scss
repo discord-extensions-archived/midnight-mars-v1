@@ -1,0 +1,18 @@
+:root {
+    // Better Channel Indicators
+    --unread-badge: rgba(168, 113, 182, 0.55);
+    --unread-bg: rgba(168, 113, 182, 0.045);
+    --selected-badge: rgb(168, 113, 182);
+    --selected-bg: rgba(168, 113, 182, 0.15);
+    --selected-bg-hover: rgba(168, 113, 182, 0.23);
+    --hovered-bg: rgba(168, 113, 182, 0.09);
+    --bg-rounding: 0 5px 5px 0;
+    --border-info: 4px solid;
+
+    // Revamped User Area
+    --popout-color: var(--background-primary);
+
+    // Pop
+    --transition: cubic-bezier(0, 0.75, 0, 1.75) 0.3s;
+    --box-shadow: 0 0 15px rgb(10, 10, 10, 0.7);
+}
