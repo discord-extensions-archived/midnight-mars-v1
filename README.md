@@ -8,7 +8,7 @@
 # 🪐Midnight Mars 
 A simple, nice looking, deep purple theme inspired by **midnight** on **Mars**.
 
-![Preview](./assets/)
+![Preview](./assets/temp-screenshot.png)
 
 # Currently In-Dev
 This theme is still currently in-dev. Some things still aren't themed and some things still need to be sorted out, full release should have 99% of things themed as well as more addons. To keep up to date and know what's changed, check out the CHANGELOG.md file!
