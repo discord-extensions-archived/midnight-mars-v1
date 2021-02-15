@@ -19,7 +19,7 @@ For **[Powercord](https://powercord.dev/)** or **[Vizality](https://vizality.com
 git clone https://github.com/LuckFire/Midnight-Mars
 ```
 
-**Support for BetterDiscord and Web is coming soon:tm:! (release of v1.0.0)**
+**Support for BetterDiscord and Web is coming soon:tm:! (hopefully release of v1.0.0)**
 
 # Updating for Powercord
 Powercords updater is currently broken, so in order to update the theme you will have to do it manually. To do it manually, go to **Themes -> Midnight-Mars -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
