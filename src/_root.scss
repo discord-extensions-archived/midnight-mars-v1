@@ -12,7 +12,7 @@
     --background-modifier-active: rgba(255,255,255,0.04) !important;
     --background-modifier-selected: rgba(170, 150, 176, 0.06) !important;	
     --background-modifier-accent: rgba(170, 150, 176, 0.15) !important;
-    --channeltextarea-background: var(--background-secondary) !important;
+    --channeltextarea-background: #281D30 !important;
     --focus-primary: rgb(168, 113, 182) !important;
     --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
     --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
@@ -20,10 +20,10 @@
     --activity-card-background: var(--background-primary) !important;
     --channels-default: #a996af !important;
     --text-muted: #a996af !important;
-    --text-normal: #fbfbfb !important;
+    --text-normal: #fdf1ff !important;
     --interactive-normal: #c8c8c8 !important;
     --interactive-hover: #dcddde !important;
-    --interactive-active: #fff !important;
+    --interactive-active: var(--text-normal) !important;
     --interactive-muted: #7f7183 !important;
     --header-secondary: #c9c9c9 !important;
     --toast-background: var(--background-primary) !important;

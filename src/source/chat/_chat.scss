@@ -58,11 +58,16 @@
             border-bottom-right-radius: 2px;
             border-bottom-left-radius: 2px;
             border-bottom: solid 2px var(--background-tertiary); 
-            transition: all 0.2s;
+            transition: all 500ms;
         }
 
         &:focus-within .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
             border-color: var(--background-accent);
+        }
+
+        &:hover .channelTextArea-rNsIhG .scrollableContainer-2NUZem:not(:focus-within) {
+            border-color: #57395e;
+            transition: 250ms;
         }
     }
 }
