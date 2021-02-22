@@ -42,4 +42,8 @@
             border-radius: var(--border-radius);
         }
     }
+
+    ::selection {
+        background-color: rgb(152, 100, 163, 0.80);
+    }
 }

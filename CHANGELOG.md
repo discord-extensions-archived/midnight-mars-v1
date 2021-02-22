@@ -1,3 +1,10 @@
+# v0.3.4d
+A few more changes since recently.
+- Slight changes to the right click menu, more coming soon probably.
+- Small chatbar updates.
+- Added message blobs.
+- Changed selection color.
+
 # v0.3.3d
 Some major bulk changes incoming, prepare yourselves.
 - All code is now local and no longer uses url imports.

@@ -1,4 +1,17 @@
 #app-mount {
+    // Messages (ty pavol for base)
+    .cozyMessage-3V1Y8y {
+        .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+            background-color: rgba(152, 100, 163, 0.2);
+            display: block;
+            max-width: fit-content;
+            margin: 0;
+            padding: 5px 10px ;
+            border-radius: 3px;
+            overflow: visible;
+        }
+    }
+
     // New Messages
     .newMessagesBar-265mhP {
         background-color: var(--background-accent);
