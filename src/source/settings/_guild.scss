@@ -1,0 +1,40 @@
+#app-mount [aria-label="GUILD_SETTINGS"] {
+    // Emoji
+    .emojiRow-zIc7ZX {
+        &::before {
+            background-color: var(--background-secondary);
+            border-color: var(--background-tertiary);
+        }
+
+        .emojiInput-1aLNse {
+            background-color: var(--background-primary);
+        }
+        &:hover .emojiInput-1aLNse {
+            background-color: var(--background-primary);
+        }
+    }
+    // Aduit Log
+    .auditLog-3jNbM6 {
+        border-color: var(--background-tertiary);
+
+        .header-GwIGlr {
+            background-color: var(--background-secondary-alt);
+        }
+        .divider-1pnAR2 {
+            background-color: var(--background-tertiary);
+        }
+        .changeDetails-bk98pu {
+            background-color: var(--background-secondary);
+        }
+    }
+    // Members
+    .member-1q7VfX::before {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+    }
+    // Invites
+    .inviteSettingsInviteRow-3p2O-N::before {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+    }
+}

@@ -1,3 +1,8 @@
+# v0.3.5d
+Some more changes:
+- Themed all of user settings / guild settings.
+- Removed message blobs cause they looked weird (imo).
+
 # v0.3.4d
 A few more changes since recently.
 - Slight changes to the right click menu, more coming soon probably.

@@ -12,5 +12,25 @@
         background-color: var(--background-secondary);
         border-color: var(--background-tertiary);
     }
-    // Keybinds
+    // Game Activity
+    .game-1ipmAa {
+        box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+    }
+    // Overlay
+    .notificationSettings-1NQKPR .wrapper-3jrx9n {
+        border-color: var(--background-accent);
+
+        .option-n0icdO {
+            &.selected-mKYnfr,
+            &:hover {
+                background-color: var(--background-accent);
+            }
+        }
+    }
+
+    // Cards
+    .card-FDVird:before {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+    }
 }
