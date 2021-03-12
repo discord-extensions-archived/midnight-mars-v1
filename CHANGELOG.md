@@ -1,3 +1,8 @@
+# v0.3.6d
+More basic changes.
+- More separation padding.
+- Themed some unthemed areas.
+
 # v0.3.5d
 Some more changes:
 - Themed all of user settings / guild settings.
