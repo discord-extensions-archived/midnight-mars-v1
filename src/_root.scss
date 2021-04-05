@@ -2,35 +2,35 @@
 .theme-light, 
 :root {
     // Base Colors
-    --background-primary: #36263A !important;
-    --background-secondary: #281D30 !important;
-    --background-secondary-alt: #211828 !important;
-    --background-tertiary: #1a141f !important;
-    --background-accent: #9864a3 !important;
-    --background-floating: #19131f !important;
-    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
-    --background-modifier-active: rgba(255,255,255,0.04) !important;
-    --background-modifier-selected: rgba(170, 150, 176, 0.06) !important;	
-    --background-modifier-accent: rgba(170, 150, 176, 0.15) !important;
-    --channeltextarea-background: #281D30 !important;
-    --focus-primary: rgb(168, 113, 182) !important;
-    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
-    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
-    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
-    --activity-card-background: var(--background-primary) !important;
-    --channels-default: #a996af !important;
-    --text-muted: #a996af !important;
-    --text-normal: #fdf1ff !important;
-    --interactive-normal: #c8c8c8 !important;
-    --interactive-hover: #dcddde !important;
-    --interactive-active: var(--text-normal) !important;
-    --interactive-muted: #7f7183 !important;
-    --header-secondary: #c9c9c9 !important;
-    --toast-background: var(--background-primary) !important;
-    --toast-header: var(--background-tertiary) !important;
-    --toast-contents: var(--background-secondary) !important;
-    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
-    --toast-border: var(--background-tertiary) !important;
+    --background-primary: #36263A;
+    --background-secondary: #281D30;
+    --background-secondary-alt: #211828;
+    --background-tertiary: #1a141f;
+    --background-accent: #9864a3;
+    --background-floating: #19131f;
+    --background-modifier-hover: rgba(255,255,255,0.01);	
+    --background-modifier-active: rgba(255,255,255,0.04);
+    --background-modifier-selected: rgba(170, 150, 176, 0.06);	
+    --background-modifier-accent: rgba(170, 150, 176, 0.15);
+    --channeltextarea-background: #281D30;
+    --focus-primary: rgb(168, 113, 182);
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2);
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border-disabled: var(--background-tertiary);
+    --activity-card-background: var(--background-primary);
+    --channels-default: #a996af;
+    --text-muted: #a996af;
+    --text-normal: #fdf1ff;
+    --interactive-normal: #c8c8c8;
+    --interactive-hover: #dcddde;
+    --interactive-active: var(--text-normal);
+    --interactive-muted: #7f7183;
+    --header-secondary: #c9c9c9;
+    --toast-background: var(--background-primary);
+    --toast-header: var(--background-tertiary);
+    --toast-contents: var(--background-secondary);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: var(--background-tertiary);
 
     // Separation 
     --border-radius: 5px;

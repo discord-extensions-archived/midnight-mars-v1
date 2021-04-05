@@ -43,7 +43,7 @@
             border-radius: var(--border-radius);
         }
 
-        .thin-1ybCId {
+        .thin-1ybCId:not(#channels) {
             background-color: var(--background-secondary);
             border-radius: var(--border-radius);
         }

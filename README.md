@@ -16,7 +16,7 @@ This theme is still currently in-dev. Some things still aren't themed and some t
 # Installation
 For **[Powercord](https://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
 ```
-git clone https://github.com/LuckFire/Midnight-Mars
+git clone https://github.com/LuckFire/midnight-mars
 ```
 
 **Support for BetterDiscord and Web is coming soon:tm:! (hopefully release of v1.0.0)**
