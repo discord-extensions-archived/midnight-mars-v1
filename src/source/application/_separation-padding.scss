@@ -25,12 +25,13 @@
         margin-top: var(--separation-padding);
         margin-bottom: var(--separation-padding);
         margin-left: var(--separation-padding);
+        margin-right: -7px;
     
-        .scroller-2TZvBN {
+        .scroller-1Bvpku {
             background-color: var(--background-secondary);
             padding-top: calc(var(--separation-padding) + 2px);
 
-            .expandedFolderBackground-2sPsd-, .folderIconWrapper-226oVY {
+            .expandedFolderBackground-1cujaW, .folder-1hbNCn[aria-expanded="true"] {
                 background-color: var(--background-secondary-alt);
             }
         }

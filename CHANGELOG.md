@@ -1,3 +1,5 @@
+# NOTICE: I AM NO LONGER LOGGING UPDATES UNTIL THE FULL RELEASE.
+
 # v0.3.6d
 More basic changes.
 - More separation padding.

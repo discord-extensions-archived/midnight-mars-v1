@@ -1,1 +1,68 @@
 @import "./src/base";
+
+:root {
+/* -------------------- Base ------------------- */
+--midnightmars-primary: #36263A;
+--midnightmars-secondary: #281D30;
+--midnightmars-secondary-alt: #211828;
+--midnightmars-tertiary: #1a141f;
+--midnightmars-modifiers: 152, 100, 163;
+--midnightmars-accent: #9864a3;
+
+/* ---------------- Text Colors --------------- */
+--text-normal: #fbfbfb;
+--text-muted: #a996af;
+--text-link: #00b0f4;
+--channels-default: #a996af;
+--interactive-normal: #c8c8c8;
+--interactive-hover: #dcddde;
+--interactive-active: var(--text-normal);
+--interactive-muted: #7f7183;
+--header-secondary: #c9c9c9;
+
+/* ------------- Modals & Popouts ------------ */
+--midnightmars-mp-primary: var(--midnightmars-primary);
+--midnightmars-mp-secondary: var(--midnightmars-tertiary);
+--midnightmars-mp-outline: rgb(26, 20, 31, 0.5);
+
+/* ------------ Separation Padding ----------- */
+--border-radius: 5px;
+--separation-padding: 7px;
+
+/* ------------- Addon Variables ------------- */ 
+/* Channel Indicators */
+--unread-badge: rgba(168, 113, 182, 0.55);
+--unread-bg: rgba(168, 113, 182, 0.045);
+--selected-badge: rgb(168, 113, 182);
+--selected-bg: rgba(168, 113, 182, 0.15);
+--selected-bg-hover: rgba(168, 113, 182, 0.23);
+--hovered-bg: rgba(168, 113, 182, 0.09);
+--bg-rounding: 0 5px 5px 0;
+--border-info: 4px solid;
+
+/* ---------- Misc Discord Variables -------- */
+--background-primary: var(--midnightmars-primary);
+--background-secondary: var(--midnightmars-secondary);
+--background-secondary-alt: var(--midnightmars-secondary-alt);
+--background-tertiary: var(--midnightmars-tertiary);
+--background-accent: var(--midnightmars-accent);
+--background-floating: #19131f;
+// ---------------------------------------------
+--background-modifier-selected: rgb(var(--midnightmars-modifiers), 0.1);
+--background-modifier-active: rgb(var(--midnightmars-modifiers), 0.2);
+--background-modifier-hover: rgb(var(--midnightmars-modifiers), 0.35);
+--background-modifier-accent: rgba(170, 150, 176, 0.149);
+// ---------------------------------------------
+--channeltextarea-background: #281D30;
+--activity-card-background: var(--midnightmars-primary);
+// ---------------------------------------------
+--toast-background: var(--midnightmars-primary);
+--toast-header: var(--midnightmars-tertiary);
+--toast-contents: var(--midnightmars-secondary);
+--toast-box-shadow: rgba(0, 0, 0, .2);
+--toast-border: var(--midnightmars-tertiary);
+// ---------------------------------------------
+--deprecated-card-bg: rgba(0, 0, 0, 0.2);
+--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1);
+--deprecated-text-input-border-disabled: var(--background-tertiary);
+}
