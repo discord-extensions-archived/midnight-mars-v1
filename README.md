@@ -1,3 +1,6 @@
+# THIS VERSION IS NO LONGER MAINTAINED
+This repo is now archived. You can find the new, more polished version of Midnight Mars [here](https://github.com/LuckFire/midnight-mars).
+
 ![Banner](./assets/banner-temp.png)
 <p align="center">
   <a href="#"><img align="center" alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LuckFire/Midnight-Mars?color=c94b4b&style=for-the-badge&logo=github">
